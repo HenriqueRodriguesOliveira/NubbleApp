@@ -1,13 +1,15 @@
 import React from 'react';
-import { SafeAreaView } from 'react-native';
+import { View } from 'react-native';
 import { Text } from './src/components/Text/Text';
 
 function App(): React.JSX.Element {
 
   return (
-    <SafeAreaView>
-      <Text>Hello</Text>
-    </SafeAreaView>
+    <View>
+      <Text preset="paragraphCaptionSmall">Hello</Text>
+      <Text preset="headingLarge">Hello</Text>
+      <Text preset="headingLarge" bold >Hello</Text>
+    </View>
   );
 }
 

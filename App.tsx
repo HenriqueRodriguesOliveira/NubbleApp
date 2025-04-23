@@ -14,7 +14,8 @@ export default function App() {
         <Box marginBottom="s24">
           <Button title="Entrar" />
         </Box>
-        <Button loading title="Loading" />
+        <Button preset="outline" loading title="Loading" marginBottom="s24" />
+        <Button preset="secondary" title="outline" />
       </View>
     </ThemeProvider>
   );
